@@ -1,21 +1,20 @@
-# Termux-only-AI-desktop-
-us it your own
-# Local AI Assistant (Termux Safe)
+# Termux-Safe + Interactive Local AI Assistant
 
 ## Features
-- Fully offline.
-- Rule-based commands only (no ML, no GUI) for stability.
-- Open apps, type text, search files.
-- Safe on low-memory Termux devices.
-
-## Commands
-- `open <appname>` : Open an app or file
-- `type <text>` : Type text
-- `search file <filename>` : Search file
-- `exit` : Quit assistant
+- Fully offline
+- Termux-safe rule-based AI
+- Desktop optional tiny ML AI
+- Commands:
+  - `open <appname>` – open app or file
+  - `type <text>` – type text
+  - `search file <filename>` – search file
+  - `battery` – get battery info (Termux)
+  - `list files [in <folder>]` – list files
+  - `screenshot` – take screenshot (Termux)
+  - `ask ai <question>` – AI fallback (desktop only)
+  - `exit` – quit assistant
 
 ## Setup
-1. Run setup script:
-   ```bash
-   bash setup_termux.sh
-   
+```bash
+bash setup_termux.sh
+python main.py
