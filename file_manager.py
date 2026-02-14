@@ -12,3 +12,4 @@ def read_logs():
         return []
     with open(LOG_FILE, "r") as f:
         return f.readlines()
+        
