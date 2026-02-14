@@ -7,7 +7,6 @@ pyautogui = None
 
 def open_app(app_name):
     if IS_TERMUX:
-        # Use termux-open for apps/files
         subprocess.run(["termux-open", app_name])
     elif SYSTEM == "windows":
         try:
